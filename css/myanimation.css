@@ -19,32 +19,85 @@ body {
 .bird-container-1 {
     position: absolute;
     top: -7%;
-    left: -194px;
-    animation: fly-to-right 14s linear infinite;
+    left: -280px;
+    animation: fly-to-right 10s linear 1.6s infinite;
 }
 .bird-container-2 {
     position: absolute;
-    top: 2%;
-    left: -194px;
-    animation: fly-to-right 13s linear infinite;
+    top: -9%;
+    left: -250px;
+    animation: fly-to-right 10s linear 1.4s infinite;
 }
 .bird-container-3 {
+    position: absolute;
+    top: -11%;
+    left: -230px;
+    animation: fly-to-right 10s linear 1.2s infinite;
+}
+.bird-container-4 {
      position: absolute;
-     top: -5%;
+     top: -11%;
      left: -194px;
-    animation: fly-to-right 10s linear 2s infinite;
+    animation: fly-to-right 10s linear 1s infinite;
+}
+.bird-container-5 {
+    position: absolute;
+    top: -5%;
+    left: -220px;
+    animation: fly-to-right 10s linear 1.3s infinite;
+}
+.bird-container-6 {
+    position: absolute;
+    top: 0;
+    left: -240px;
+    animation: fly-to-right 10s linear 1.5s infinite;
+}
+.bird-container-7 {
+    position: absolute;
+    top: 5%;
+    left: -265px;
+    animation: fly-to-right 10s linear 1.7s infinite;
 }
 .bird-container-1 .bird {
-    transform: scale(.11);
-    animation-delay: 0.5s;
+    transform: scale(.04);
+    animation-delay: 0.2s;
+
 }
 .bird-container-2 .bird {
-    transform: scale(.15);
-    animation-delay: 0.3s;
+    transform: scale(.05);
+    animation-delay: 0.5s;
+
+
 }
 .bird-container-3 .bird {
-    transform: scale(.07);
+    transform: scale(.08);
     animation-delay: 0.1s;
+
+
+}
+.bird-container-4 .bird {
+    transform: scale(.1);
+    animation-delay: 0.8s;
+
+
+}
+.bird-container-5 .bird {
+    transform: scale(.11);
+    animation-delay: 0.6s;
+
+
+}
+.bird-container-6 .bird {
+    transform: scale(.12);
+    animation-delay: 0.3s;
+
+
+}
+.bird-container-7 .bird {
+    transform: scale(.13);
+    animation-delay: 0.7s;
+
+
 }
 @keyframes fly-cycle {
     100% {
@@ -53,7 +106,7 @@ body {
 }
 @keyframes fly-to-right {
     to {
-        left: 50%;
+        left: 70%;
         top: -50%;
 
     }
