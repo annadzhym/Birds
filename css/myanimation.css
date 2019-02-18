@@ -19,20 +19,19 @@ body {
 .bird-container-1 {
     position: absolute;
     top: -7%;
-    left: -14%;
+    left: -194px;
     animation: fly-to-right 14s linear infinite;
 }
 .bird-container-2 {
     position: absolute;
     top: 2%;
-    left: -14%;
-    display: block;
+    left: -194px;
     animation: fly-to-right 13s linear infinite;
 }
 .bird-container-3 {
      position: absolute;
      top: -5%;
-     left: -14%;
+     left: -194px;
     animation: fly-to-right 10s linear 2s infinite;
 }
 .bird-container-1 .bird {
@@ -54,7 +53,7 @@ body {
 }
 @keyframes fly-to-right {
     to {
-        left: 74%;
+        left: 50%;
         top: -50%;
 
     }
